@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ua">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Risque&family=Roboto&display=swap" rel="stylesheet">
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+  <link rel="stylesheet" href="css/style.min.css">
+  <title>DefaultPageName</title>
+</head>
+
+<body>
+  <header class="header">
+  <div class="header__content container">
+    <a class="header__logo" href="#"><img class="header__logo-img" src="images/logo.png" alt=""></a>
+    <div class='header__menu menu'>
+      <nav class='menu__body'>
+        <ul class='menu__list'>
+          <li class='menu__item'>
+            <a class='menu__link' href='#'>Main</a>
+          </li>
+          <li class='menu__item'>
+            <a class='menu__link' href='#'>About</a>
+          </li>
+          <li class='menu__item'>
+            <a class='menu__link' href='#'>Products</a>
+          </li>
+          <li class='menu__item'>
+            <a class='menu__link' href='#'>Contacts</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div id="icon-menu" class='menu__icon icon-menu'>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div id="menu-side" class="menu__side">
+      <ul class='menu__side-list'>
+        <li class='menu__item'>
+          <a class='menu__link' href='#'>Main</a>
+        </li>
+        <li class='menu__item'>
+          <a class='menu__link' href='#'>About</a>
+        </li>
+        <li class='menu__item'>
+          <a class='menu__link' href='#'>Products</a>
+        </li>
+        <li class='menu__item'>
+          <a class='menu__link' href='#'>Contacts</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</header>
+  <main class="page">
+    <div id="bigSnow" class="big-snow"><img src="images/decor/big-snow.png" alt=""></div>
+    <div class="swiper mySwiper mySwiperDesctop">
+      <div class="swiper-wrapper">
+        <section class="swiper-slide intro">
+          <div id="d"></div>
+          <div class="intro__wrapper container">
+            <div class="intro__content">
+              <h1 class="intro__content-title">
+                Main Site Title
+              </h1>
+              <p class="intro__content-subtitle">
+                Lorem ipsum descripsum
+              </p>
+              <a class="intro__content-link" href="#">
+                <span> Call to action</span>
+                <span>Call to action</span>
+              </a>
+            </div>
+          </div>
+          <div class="intro__images">
+            <div id="introCloud" class="intro__cloud">
+              <p class="intro__cloud-text">
+                How how how !!! <br>
+                Like it? <br>
+                Scroll down for more !
+              </p>
+            </div>
+            <div class="intro__bg">
+              <img src="images/intro/1.png" alt="">
+            </div>
+          </div>
+        </section>
+        <section class="swiper-slide pluses">
+          <div class="pluses__wrapper container container__pluses">
+            <div class="pluses__content">
+              <h2 class="pluses__content-title">
+                At least somewhere you can feel new year atmosphere
+              </h2>
+              <p class="pluses__content-subtitle">
+                Choose your present:
+              </p>
+            </div>
+            <div class="tabs">
+              <input type="radio" name="tab-btn" id="tab-btn-1" value="" checked>
+              <label for="tab-btn-1"><img src="images/pluses/1.png" alt=""></label>
+              <input type="radio" name="tab-btn" id="tab-btn-2" value="">
+              <label for="tab-btn-2"><img src="images/pluses/2.png" alt=""></label>
+              <input type="radio" name="tab-btn" id="tab-btn-3" value="">
+              <label for="tab-btn-3"><img src="images/pluses/3.png" alt=""></label>
+              <div class="tabs__content" id="content-1">
+                <div class="tabs__content-inner">
+                  <h3 class="tabs__content-title">
+                    Best sock ever
+                  </h3>
+                  <p class="tabs__content-text">
+                    Reuglar sock have no
+                    present inside
+                    Lorem Ipsum is simply dumm y text of the printing and types etting industry. Lorem
+                  </p>
+                </div>
+                <div class="tabs__content-img-box">
+                  <img class="tabs__content-img" src="images/pluses/1.png" alt="">
+                </div>
+              </div>
+              <div class="tabs__content" id="content-2">
+                <div class="tabs__content-inner">
+                  <h3 class="tabs__content-title">
+                    Best sock ever
+                  </h3>
+                  <p class="tabs__content-text">
+                    Reuglar sock have no
+                    present inside
+                    Lorem Ipsum is simply dumm y text of the printing and types etting industry. Lorem
+                  </p>
+                </div>
+                <div class="tabs__content-img-box">
+                  <img class="tabs__content-img" src="images/pluses/2.png" alt="">
+                </div>
+              </div>
+              <div class="tabs__content" id="content-3">
+                <div class="tabs__content-inner">
+                  <h3 class="tabs__content-title">
+                    Best sock ever
+                  </h3>
+                  <p class="tabs__content-text">
+                    Reuglar sock have no
+                    present inside
+                    Lorem Ipsum is simply dumm y text of the printing and types etting industry. Lorem
+                  </p>
+                </div>
+                <div class="tabs__content-img-box">
+                  <img class="tabs__content-img" src="images/pluses/3.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="swiper-slide contact">
+          <div class="contact__inner container">
+            <h1 class="contact__title">
+              Write us
+              for real presents
+            </h1>
+            <form class="contact__form" action="#">
+              <input type="text" class="contact__form-input" placeholder="Name" required>
+              <input type="text" class="contact__form-input" placeholder="Phone" required>
+              <div class="contact__form-input custom-select">
+                <select>
+                  <option value="0">Gender</option>
+                  <option value="1">Boy</option>
+                  <option value="2">Girl</option>
+                </select>
+              </div>
+              <input type="text" class="contact__form-input" placeholder="Email" required>
+              <textarea class="contact__form-textarea" placeholder="Your witsh" required></textarea>
+              <div class="contact__form-checkbox-box">
+                <input class="contact__form-checkbox" type="checkbox" id="scales" name="scales">
+                <label class="contact__form-checkbox-label" for="scales"></label>
+                <span class="contact__form-checkbox-span"></span>
+                Whant Coca-cola with present ?
+              </div>
+            </form>
+          </div>
+        </section>
+
+      </div>
+  </main>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+<script src="js/main.min.js"></script>
+
+</body>
+</html>
+</body>
+
+</html>
